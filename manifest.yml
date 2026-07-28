@@ -1,8 +1,7 @@
-definition_version: "2"
+manifest_version: 2
+type: DCM_PROJECT
+default_target: 'PROD'
 
-dcm_project:
-  default_target: PROD
-
-  targets:
-    PROD:
-      project_identifier: CICD_DEMO_DB.PUBLIC.CICD_DEMO_PROJECT
+targets:
+  PROD:
+    project_name: 'CICD_DEMO_DB.PUBLIC.CICD_DEMO_PROJECT'
