@@ -1,0 +1,8 @@
+definition_version: "2"
+
+dcm_project:
+  default_target: PROD
+
+  targets:
+    PROD:
+      project_identifier: CICD_DEMO_DB.PUBLIC.CICD_DEMO_PROJECT
